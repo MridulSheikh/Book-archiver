@@ -47,7 +47,7 @@ const displayResult = books =>{
       let author = authors;
       let subs = book.subject;
       let sub = subs;
-      if(book.author_name === undefined){
+      if(book.author_name === undefined){          //error undifind handle
          author = 'No Author for free';
       }
       if(book.subject === undefined){
